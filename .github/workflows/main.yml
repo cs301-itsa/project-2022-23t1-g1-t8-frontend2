@@ -18,5 +18,5 @@ jobs:
       - name: Build React App
         run: npm install && npm run build
       - name: Deploy app build to S3 bucket
-        run: aws s3 sync ./build/ s3://project-2022-23t1-g1-<teamNo>-s3 --delete
+        run: aws s3 sync ./build/ s3://project-2022-23t1-g1-team8-s3 --delete
 
